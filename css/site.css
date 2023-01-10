@@ -1,5 +1,5 @@
 :root {
-    --kls-primary-color:rgb(145, 203, 251);
+    --kls-primary-color:rgb(255, 186, 96);
     --kls-secondary-color: rgb(255, 167, 51);
     --kls-highlight-color: rgb(255, 215, 85);
 
@@ -7,7 +7,7 @@
     --kls-nav-toggler-glow: rgba(225, 215, 85, 0.55);
 
     --kls-dark-color: #212121;
-    --kls-light-color: #deeefb;
+    --kls-light-color: #fbedde;
     --kls-background-color: rgba(250,250,250, 0.8); 
 
     --kls-title-font: 'Bebas Neue', sans-serif;
@@ -105,3 +105,203 @@ footer {
 
 
 /*END FOOTER STYLES*/
+
+/*------------------------------------------------------------------------------------*/
+
+/*---- HEADER STYLES*/
+
+.mainHeader {
+    height: 200px;
+    background-image: url(/img/DevPortFolioBG_576.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: var(--kls-light-color);
+}
+.mainHeader-content {
+
+}
+
+.mainHeader-wrapper {
+    padding-left: 1rem;
+}
+
+.mainTitle {
+    font-family: var(--kls-title-font);
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: var(--kls-dark-color);
+}
+
+.mainLogo {
+    height: .6em;
+}
+
+.subTitle {
+    font-family: var(--kls-subtitle-font);
+    font-size: .6rem;
+    line-height: 1rem;
+    font-weight: 300;
+    color: var(--kls-dark-color);
+    letter-spacing: .09rem;
+}
+
+/*END HEADER STYLES*/
+
+/*------------------------------------------------------------------------------------*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .mainHeader {
+        height: 200px;
+        background-image: url(/img/DevPortFolioBG_767.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: var(--kls-light-color);
+    }
+    .mainHeader-content {
+    
+    }
+    
+    .mainHeader-wrapper {
+        padding-left: 1rem;
+    }
+    
+    .mainTitle {
+        font-family: var(--kls-title-font);
+        font-size: 2.5rem;
+        line-height: 2rem;
+        color: var(--kls-dark-color);
+    }
+    
+    .mainLogo {
+        height: .6em;
+    }
+    
+    .subTitle {
+        font-family: var(--kls-subtitle-font);
+        font-size: .6rem;
+        line-height: 1rem;
+        font-weight: 300;
+        color: var(--kls-dark-color);
+        letter-spacing: .09rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .mainHeader {
+        height: 300px;
+        background-image: url(/img/DevPortFolioBG_992.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: var(--kls-light-color);
+    }
+    .mainHeader-content {
+    
+    }
+    
+    .mainHeader-wrapper {
+        padding-left: 1rem;
+    }
+    
+    .mainTitle {
+        font-family: var(--kls-title-font);
+        font-size: 4.5rem;
+        line-height: 3.5rem;
+        color: var(--kls-dark-color);
+    }
+    
+    .mainLogo {
+        height: .6em;
+    }
+    
+    .subTitle {
+        font-family: var(--kls-subtitle-font);
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 300;
+        color: var(--kls-dark-color);
+        letter-spacing: .1rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .mainHeader {
+        height: 400px;
+        background-image: url(/img/DevPortFolioBG_1200.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: var(--kls-light-color);
+    }
+    .mainHeader-content {
+    
+    }
+    
+    .mainHeader-wrapper {
+        padding-left: 1rem;
+    }
+    
+    .mainTitle {
+        font-family: var(--kls-title-font);
+        font-size: 5rem;
+        line-height: 3.5rem;
+        color: var(--kls-dark-color);
+    }
+    
+    .mainLogo {
+        height: .9em;
+    }
+    
+    .subTitle {
+        font-family: var(--kls-subtitle-font);
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 300;
+        color: var(--kls-dark-color);
+        letter-spacing: .2rem;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .mainHeader {
+        height: 500px;
+        background-image: url(/img/DevPortFolioBG_2560.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: var(--kls-light-color);
+    }
+    .mainHeader-content {
+    
+    }
+    
+    .mainHeader-wrapper {
+        padding-left: 1rem;
+    }
+    
+    .mainTitle {
+        font-family: var(--kls-title-font);
+        font-size: 6rem;
+        line-height: 4.5rem;
+        color: var(--kls-dark-color);
+    }
+    
+    .mainLogo {
+        height: .9em;
+    }
+    
+    .subTitle {
+        font-family: var(--kls-subtitle-font);
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 300;
+        color: var(--kls-dark-color);
+        letter-spacing: .2rem;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+ }
