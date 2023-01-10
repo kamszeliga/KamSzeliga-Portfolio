@@ -1,0 +1,107 @@
+:root {
+    --kls-primary-color:rgb(145, 203, 251);
+    --kls-secondary-color: rgb(255, 167, 51);
+    --kls-highlight-color: rgb(255, 215, 85);
+
+    --kls-nav-toggler-color: var(--kls-highlight-color);
+    --kls-nav-toggler-glow: rgba(225, 215, 85, 0.55);
+
+    --kls-dark-color: #212121;
+    --kls-light-color: #deeefb;
+    --kls-background-color: rgba(250,250,250, 0.8); 
+
+    --kls-title-font: 'Bebas Neue', sans-serif;
+    --kls-subtitle-font: 'Fira Sans', sans-serif;
+    --kls-heading-font: 'Bebas Neue', sans-serif;
+    --kls-body-font: 'Roboto', sans-serif;
+
+    --kls-font-size: 1.2rem;
+    --kls-font-weight: 400;
+    --kls-line-height: 1.5rem;
+
+    --kls-title-color: var(--kls-dark-color);
+
+
+
+}
+
+
+
+
+/*---- Sticky Footer */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--kls-body-font);
+    font-size: var(--kls-font-size);
+    font-weight: var(--kls-font-weight);
+    line-height: var(--kls-line-height);
+    color: var(--kls-dark-color);
+    background: var(--kls-background-color);
+}
+
+.content {
+    flex: 1 0 auto;
+    margin-top: 1rem;
+}
+
+footer {
+    flex-shrink: 0;
+}
+/*END: STICKY FOOTER*/
+
+/*------------------------------------------------------------------------------------*/
+
+/*---- NAV BAR OVERRIDES*/
+#mainNav {
+    background: var(--kls-dark-color);
+}
+
+#mainNav button {
+    border-color: var(--kls-highlight-color);
+}
+
+.navbar-toggler {
+    color: var(--kls-nav-toggler-glow);
+}
+
+.navbar-toggler-icon-kls {
+    color: var(--kls-nav-toggler-color);
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+/*END: NAV BAR OVERRIDES*/
+
+/*------------------------------------------------------------------------------------*/
+
+/*---- FOOTER STYLES*/
+
+.footer-main {
+    background-color: var(--kls-dark-color);
+    color: var(--kls-light-color)
+}
+
+.footer-main a.socialicons{
+    color: var(--kls-secondary-color);
+    opacity: 1;
+    transition: color 0.25s ease-in;
+}
+
+.footer-main a.socialicons:hover{
+    color: var(--kls-highlight-color);
+    opacity: 1;
+}
+
+.socialicons {
+    font-size: 2rem;
+}
+
+
+/*END FOOTER STYLES*/
