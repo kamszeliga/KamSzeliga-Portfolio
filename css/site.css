@@ -43,13 +43,12 @@ body {
     font-size: var(--kls-font-size);
     font-weight: var(--kls-font-weight);
     line-height: var(--kls-line-height);
-    color: var(--kls-dark-color);
+    color: var(--kls-darker-color);
     background: var(--kls-background-color);
 }
 
 .content {
     flex: 1 0 auto;
-    margin-top: 1rem;
 }
 
 footer {
@@ -62,7 +61,7 @@ footer {
 
 /*---- NAV BAR OVERRIDES*/
 #mainNav {
-    background: var(--kls-dark-color);
+    background: var(--kls-darker-color);
 }
 
 #mainNav button {
@@ -96,11 +95,11 @@ h2,
 .h2,
 h1,
 .h1 {
-font-family: var(--kls-heading-font);
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: .1rem;
-color: var(--kls-title-color)
+    font-family: var(--kls-heading-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: var(--kls-title-color)
 }
 
 .btn-primary {
@@ -140,7 +139,7 @@ color: var(--kls-title-color)
 /*---- FOOTER STYLES*/
 
 .footer-main {
-    background-color: var(--kls-dark-color);
+    background-color: var(--kls-darker-color);
     color: var(--kls-light-color)
 }
 
@@ -174,6 +173,10 @@ color: var(--kls-title-color)
     background-color: var(--kls-light-color);
 }
 
+.mainHeader>.mainHeader-content {
+    backdrop-filter: blur(2px) hue-rotate(0deg) brightness(70%) contrast(100%);
+}
+
 .mainHeader-cover {
     min-height: 200px;
     background-image: url(/img/cityBG_2560.png);
@@ -182,11 +185,11 @@ color: var(--kls-title-color)
     width: 100%;
     overflow: hidden;
     background-size: cover;
-    
+
 }
 
-.mainHeader-cover > .mainHeader-content {
-    backdrop-filter: blur(2px);
+.mainHeader-cover>.mainHeader-content {
+    backdrop-filter: blur(2px) hue-rotate(220deg) brightness(70%) contrast(100%);
 }
 
 .mainHeader-wrapper {
@@ -197,7 +200,7 @@ color: var(--kls-title-color)
     font-family: var(--kls-title-font);
     font-size: 2.5rem;
     line-height: 2rem;
-    color: var(--kls-dark-color);
+    color: var(--kls-light-color);
 }
 
 .mainLogo {
@@ -209,7 +212,7 @@ color: var(--kls-title-color)
     font-size: .6rem;
     line-height: 1rem;
     font-weight: 300;
-    color: var(--kls-dark-color);
+    color: var(--kls-light-color);
     letter-spacing: .09rem;
 }
 
@@ -249,6 +252,7 @@ section {
     font-size: 4rem;
 
 }
+
 /*------------------------------------------------------------------------------------*/
 /* SITES FOR BACKGROUND IMAGES: https://unsplash.com/s/photos/ https://www.pexels.com/ */
 /*------------------------------------------------------------------------------------*/
@@ -262,10 +266,12 @@ section {
         background-position: left top;
         background-color: var(--kls-light-color);
     }
+
     .mainTitle {
         font-size: 2.5rem;
         line-height: 2rem;
     }
+
     .subTitle {
         font-size: .6rem;
         line-height: 1rem;
@@ -309,7 +315,7 @@ section {
 
     .mainTitle {
         font-size: 5rem;
-        line-height: 3.5rem;
+        line-height: 4rem;
     }
 
     .subTitle {
@@ -329,10 +335,21 @@ section {
         background-position: left top;
         background-color: var(--kls-light-color);
     }
+
+    .mainHeader>.mainHeader-content {
+        backdrop-filter: blur(2px) hue-rotate(0deg) brightness(70%) contrast(100%);
+    }
+
+    /* @supports not (backdrop-filter: blur(2px)) {
+        .mainHeader > .mainHeader-content
+            background-color: ;
+    } */
+
     .mainTitle {
         font-size: 6rem;
         line-height: 4.5rem;
     }
+
     .subTitle {
         font-size: 1.5rem;
         line-height: 2rem;
