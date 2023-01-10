@@ -112,9 +112,9 @@ footer {
 
 .mainHeader {
     height: 200px;
-    background-image: url(/img/DevPortFolioBG_576.png);
+    background-image: url(/img/JillPrestonBanner_576.png);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     background-color: var(--kls-light-color);
 }
 .mainHeader-content {
@@ -159,14 +159,16 @@ footer {
 }
 
 /*------------------------------------------------------------------------------------*/
+/* SITES FOR BACKGROUND IMAGES: https://unsplash.com/s/photos/ https://www.pexels.com/ */
+/*------------------------------------------------------------------------------------*/
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     .mainHeader {
         height: 200px;
-        background-image: url(/img/DevPortFolioBG_767.png);
+        background-image: url(/img/JillPrestonBanner_767.png);
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: left top;
         background-color: var(--kls-light-color);
     }
     .mainHeader-content {
@@ -202,9 +204,9 @@ footer {
 @media (min-width: 768px) { 
     .mainHeader {
         height: 300px;
-        background-image: url(/img/DevPortFolioBG_992.png);
+        background-image: url(/img/JillPrestonBanner_992.png);
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: left top;
         background-color: var(--kls-light-color);
     }
     .mainHeader-content {
@@ -240,9 +242,9 @@ footer {
 @media (min-width: 992px) { 
     .mainHeader {
         height: 400px;
-        background-image: url(/img/DevPortFolioBG_1200.png);
+        background-image: url(/img/JillPrestonBanner_1200.png);
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: left top;
         background-color: var(--kls-light-color);
     }
     .mainHeader-content {
@@ -278,9 +280,9 @@ footer {
 @media (min-width: 1200px) { 
     .mainHeader {
         height: 500px;
-        background-image: url(/img/DevPortFolioBG_2560.png);
+        background-image: url(/img/JillPrestonBanner_2560.png);
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: left top;
         background-color: var(--kls-light-color);
     }
     .mainHeader-content {
