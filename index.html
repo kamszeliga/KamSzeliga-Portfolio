@@ -43,25 +43,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#Skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#Projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Challenges</a>
+                        <a class="nav-link" href="#Challenges">Challenges</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#Blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#Contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -81,10 +81,62 @@
         </div>
     </header>
 
-    <main class="content">
+    <main class="content container-xxl">
+        <section id="About">
+            <h1>About Me</h1>
+            <div class="row">
+                <div class="col col-lg-4 col-12">
+                    <picture>
+                        <srcset src="/img/dane_profile.jpg" media="(min-width: 992px)"/>
+                        <srcset src="/img/dane_profile_992.jpg" media="(min-width: 768px)"/>
+                        <srcset src="/img/dane_profile_768.jpg" media="(min-width: 576px)"/>
+                        <img src="/img/dane_profile_576.jpg" class="img-fluid profilePic"/>
+                    </picture>
+                </div>
+                    <div class="col col-lg-8 col-12">
+                    <h2> I'm Kamryn Szeliga, a full-stack web developer.</h2>
+                    <p>Insert Bio here. Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Donec ornare tellus sit amet pulvinar 
+                        tincidunt. Etiam elementum nisl lacus, sed laoreet tortor 
+                        commodo eget. Nulla non placerat diam. Aliquam scelerisque
+                        justo vel malesuada tempus. Vivamus vitae est sit amet 
+                        est volutpat euismod. Suspendisse sagittis turpis 
+                        consectetur rutrum venenatis. Curabitur eu nunc a risus 
+                        vulputate sollicitudin. Phasellus sed dolor et massa 
+                        mattis dignissim non non turpis. Quisque aliquam volutpat 
+                        arcu. Duis fringilla tellus turpis. Nam ultrices orci quis 
+                        ligula elementum, in vestibulum elit dictum. Etiam tristique 
+                        lacinia est eu interdum.
+                    </p>
+                    <div class="row g-3">
+                    <div class="col-12 col-lg-6">
+                        <span>Name:</span>
+                        <span>Kamryn Szeliga</span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <span>Email:</span>
+                        <span><a class="linkStyle" href="mailto:kamrynszeliga@gmail.com">
+                            kamrynszeliga@gmail.com</a></span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <span>From: </span>
+                        <span>North Carolina, US</span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#" class="btn btn-primary btn-xl">Download My Resume</a>
+                    </div>
+                </div>
+                </div>
+            </div>
 
+        </section>
+        <section id="Skills" class="section-page"></section>
+        <section id="Projects" class="section-page"></section>
+        <section id="Challenges" class="section-page"></section>
+        <section id="Blog" class="section-page"></section>
+        <section id="Contact" class="section-page"></section>
     </main>
-    
+
     <footer class="container-fluid mt-5">
         <div class="row align-items-center footer-main">
             <div class="col container">

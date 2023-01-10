@@ -149,6 +149,17 @@ footer {
 
 /*------------------------------------------------------------------------------------*/
 
+/* START SECTION STYLES */
+.profilePic {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    /*BOX SHADOW SITE: https://getcssscan.com/css-box-shadow-examples */
+}
+
+/*------------------------------------------------------------------------------------*/
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     .mainHeader {
