@@ -165,7 +165,20 @@ h1,
     font-size: 2rem;
 }
 
+.footer-cta {
+    background-color: var(--kls-secondary-color);
+    width: 75%;
+    border-radius: 15px;
+}
 
+.footer-bg-cta {
+    background: linear-gradient(to bottom, 
+                                var(--kls-background-color), 
+                                var(--kls-background-color) 50%, 
+                                var(--kls-darker-color) 50%, 
+                                var(--kls-darker-color) 100%);
+                                padding-bottom: .5rem;
+}
 /*END FOOTER STYLES*/
 
 /*------------------------------------------------------------------------------------*/
@@ -258,6 +271,10 @@ section {
 .section-page:nth-last-child(3) {
     background-color: var(--kls-light-color);
 }
+
+/* .section-page:last-child {
+    background-color: var(--kls-primary-color);
+} */
 
 .devicons {
     font-size: 4rem;
