@@ -29,6 +29,7 @@
 
     <!--My Style Sheet: ALWAYS LAST-->
     <link href="/css/site.css" rel="stylesheet" />
+    <link href="/css/hoverCard.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -172,7 +173,63 @@
 
             </div>
         </section>
-        <section id="Projects" class="section-page"></section>
+        <section id="Projects" class="section-page">
+            <h1>Projects I Have Built</h1>
+            <p>
+                Showcasing complete, functional projects demonstrates what I can bring to the team.
+                I built these projects from the ground up to demonstrate the skill I have with the 
+                front-end, back-end and database management. All these projects are fullstack web 
+                projects that are published so that you can demo them easily. 
+                <a href="#Contact" class="linkstyle2"> Contact me</a> to get a complete code walkthrough.
+            </p>
+            <div class="row row-cols-1 row-cols-md-3 gy-5">
+<!-- ---------------------- BUG TRACKER CARD-->
+                <div class="col">
+                    <div class="hc-wrapper">
+                        <div class="hc-card">
+                            <picture>
+                                <source srcset="/img/logos/BugTracker_600.jpg" media="(min-width: 992px)">
+                                <image src="/img/logos/BugTracker_200.jpg"></image>
+                            </picture>
+                            <div class="hc-content">
+                                <p>A Full Stack bug tracker app built with ASP.NET MVC, C# and Postgres.</p>
+                                <button type="button" class="btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- ----------------------- CONTACTPRO CARD-->
+                <div class="col">
+                    <div class="hc-wrapper">
+                        <div class="hc-card">
+                            <picture>
+                                <source srcset="/img/logos/ExpenseTracker_600.jpg" media="(min-width: 992px)">
+                                <image src="/img/logos/ExpenseTracker_200.jpg"></image>
+                            </picture>
+                            <div class="hc-content">
+                                <p>A very cool app made with some script language I have yet to learn.</p>
+                                <button type="button" class="btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- ----------------------------- BLOG CARD-->
+                <div class="col">
+                    <div class="hc-wrapper">
+                        <div class="hc-card">
+                            <picture>
+                                <source srcset="/img/logos/Blog_600.jpg" media="(min-width: 992px)">
+                                <image src="/img/logos/Blog_200.jpg"></image>
+                            </picture>
+                            <div class="hc-content">
+                                <p>A super neat blog that I wrote and built from scratch.</p>
+                                <button type="button" class="btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <section id="Challenges" class="section-page"></section>
         <section id="Blog" class="section-page"></section>
         <section id="Contact" class="section-page"></section>

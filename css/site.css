@@ -22,11 +22,7 @@
 
     --kls-title-color: var(--kls-dark-color);
 
-
-
 }
-
-
 
 
 /*---- Sticky Footer */
@@ -130,6 +126,17 @@ h1,
 
 .linkstyle:hover {
     color: var(--kls-primary-color);
+    filter: saturate(2);
+    text-decoration: underline;
+}
+
+.linkstyle2 {
+    color: var(--kls-secondary-color);
+    text-decoration: none;
+}
+
+.linkstyle2:hover {
+    color: var(--kls-light-color);
     filter: saturate(2);
     text-decoration: underline;
 }
