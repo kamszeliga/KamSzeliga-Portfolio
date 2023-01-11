@@ -255,9 +255,32 @@ section {
     background-color: var(--kls-primary-color);
 }
 
+.section-page:nth-last-child(3) {
+    background-color: var(--kls-light-color);
+}
+
 .devicons {
     font-size: 4rem;
 
+}
+
+.section-cta {
+    background-color: var(--kls-dark-color);
+    color: var(--kls-light-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.cta-arrow {
+    color: var(--kls-highlight-color);
+    font-size: 2rem;
+}
+
+.cta-arrow:hover {
+    color: var(--kls-highlight-color);
+    filter: brightness(1.2);
 }
 
 /*------------------------------------------------------------------------------------*/
@@ -307,6 +330,15 @@ section {
         line-height: 1rem;
         font-weight: 300;
         letter-spacing: .1rem;
+    }
+
+    .section-cta {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    .cta-arrow {
+        font-size: 2.5rem;
     }
 }
 
