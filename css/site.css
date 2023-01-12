@@ -268,13 +268,13 @@ section {
     background-color: var(--kls-primary-color);
 }
 
-.section-page:nth-last-child(3) {
-    background-color: var(--kls-light-color);
+.section-page:nth-last-child(2) {
+    background-color: var(--kls-primary-color);
 }
 
-/* .section-page:last-child {
-    background-color: var(--kls-primary-color);
-} */
+.section-page:last-child {
+    background-color: var(--kls-light-color);
+} 
 
 .devicons {
     font-size: 4rem;
@@ -298,6 +298,13 @@ section {
 .cta-arrow:hover {
     color: var(--kls-highlight-color);
     filter: brightness(1.2);
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 
 /*------------------------------------------------------------------------------------*/
