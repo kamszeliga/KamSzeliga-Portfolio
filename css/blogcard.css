@@ -41,3 +41,7 @@
     font-size: 3rem;
 }
 
+.blog-article:nth-child(odd) > .blog-row {
+    flex-direction: row-reverse;
+}
+
