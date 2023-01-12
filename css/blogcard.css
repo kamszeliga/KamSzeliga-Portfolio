@@ -11,7 +11,7 @@
     object-fit: cover;
     filter: brightness(.8);
     position: relative;
-    transition: tramsform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .blog-image:hover {
