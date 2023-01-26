@@ -11,12 +11,12 @@
     --kls-light-color: #F0F0F0;
     --kls-background-color: #fbfcf8;
 
-    --kls-title-font: 'Bebas Neue', sans-serif;
-    --kls-subtitle-font: 'Fira Sans', sans-serif;
-    --kls-heading-font: 'Bebas Neue', sans-serif;
-    --kls-body-font: 'Roboto', sans-serif;
-
-    --kls-font-size: 1.2rem;
+    --kls-title-font: 'Poiret One', sans-serif;
+    --kls-subtitle-font: 'Aboreto', sans-serif;
+    --kls-heading-font: 'Aboreto', sans-serif;
+    --kls-body-font: 'Quicksand', sans-serif;
+    
+    --kls-font-size: 1.3rem;
     --kls-font-weight: 400;
     --kls-line-height: 1.5rem;
 
@@ -132,12 +132,12 @@ h1,
 }
 
 .linkstyle2 {
-    color: var(--kls-secondary-color);
+    color: var(--kls-darker-color);
     text-decoration: none;
 }
 
 .linkstyle2:hover {
-    color: var(--kls-light-color);
+    color: var(--kls-highlight-color);
     filter: saturate(2);
     text-decoration: underline;
 }
@@ -225,7 +225,7 @@ h1,
 }
 
 .mainLogo {
-    height: .6em;
+    height: 1em;
 }
 
 .subTitle {
