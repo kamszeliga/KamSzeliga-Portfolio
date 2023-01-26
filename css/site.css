@@ -219,8 +219,8 @@ h1,
 
 .mainTitle {
     font-family: var(--kls-title-font);
-    font-size: 2.5rem;
-    line-height: 2rem;
+    font-size: 3rem;
+    line-height: 2.2rem;
     color: var(--kls-light-color);
 }
 
@@ -323,8 +323,8 @@ section {
     }
 
     .mainTitle {
-        font-size: 2.5rem;
-        line-height: 2rem;
+        font-size: 3rem;
+        line-height: 2.5rem;
     }
 
     .subTitle {
@@ -332,6 +332,7 @@ section {
         line-height: 1rem;
         font-weight: 300;
         letter-spacing: .09rem;
+        margin-top: .2rem;
     }
 }
 
@@ -355,6 +356,7 @@ section {
         line-height: 1rem;
         font-weight: 300;
         letter-spacing: .1rem;
+        margin-top: .4rem;
     }
 
     .section-cta {
@@ -387,6 +389,7 @@ section {
         line-height: 1.5rem;
         font-weight: 300;
         letter-spacing: .2rem;
+        margin-top: .2rem;
     }
 }
 
@@ -410,8 +413,8 @@ section {
     } */
 
     .mainTitle {
-        font-size: 6rem;
-        line-height: 4.5rem;
+        font-size: 7rem;
+        line-height: 4rem;
     }
 
     .subTitle {
@@ -419,5 +422,6 @@ section {
         line-height: 2rem;
         font-weight: 300;
         letter-spacing: .2rem;
+        margin-top: .8rem;
     }
 }
