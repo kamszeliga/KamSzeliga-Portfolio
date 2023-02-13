@@ -1,6 +1,7 @@
 :root {
     --kls-primary-color: #d2e2d1;
     --kls-secondary-color: #9BB899;
+    --kls-tertiary-color: #576656;
     --kls-highlight-color: #f2ffb6;
 
     --kls-nav-toggler-color: var(--kls-highlight-color);
@@ -15,7 +16,7 @@
     --kls-subtitle-font: 'Aboreto', sans-serif;
     --kls-heading-font: 'Aboreto', sans-serif;
     --kls-body-font: 'Quicksand', sans-serif;
-    
+
     --kls-font-size: 1.3rem;
     --kls-font-weight: 400;
     --kls-line-height: 1.5rem;
@@ -173,13 +174,14 @@ h1,
 }
 
 .footer-bg-cta {
-    background: linear-gradient(to bottom, 
-                                var(--kls-background-color), 
-                                var(--kls-background-color) 50%, 
-                                var(--kls-darker-color) 50%, 
-                                var(--kls-darker-color) 100%);
-                                padding-bottom: .5rem;
+    background: linear-gradient(to bottom,
+            var(--kls-background-color),
+            var(--kls-background-color) 50%,
+            var(--kls-darker-color) 50%,
+            var(--kls-darker-color) 100%);
+    padding-bottom: .5rem;
 }
+
 /*END FOOTER STYLES*/
 
 /*------------------------------------------------------------------------------------*/
@@ -275,7 +277,7 @@ section {
 
 .section-page:last-child {
     background-color: var(--kls-light-color);
-} 
+}
 
 .devicons {
     font-size: 4rem;
