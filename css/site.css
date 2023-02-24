@@ -186,6 +186,12 @@ h1,
 
 /*------------------------------------------------------------------------------------*/
 
+.imageSize {
+    height: 15em;
+    width: 22em;
+    position: left top;
+}
+
 /*---- HEADER STYLES*/
 
 .mainHeader {

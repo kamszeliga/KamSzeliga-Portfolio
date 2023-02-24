@@ -5,9 +5,9 @@
     overflow: hidden;
 }
 
-.blog-image{
-    width: 100%;
-    height: 100%;
+.blog-image {
+    max-width: 15em;
+    /* max-height: 100%; */
     object-fit: cover;
     filter: brightness(.8);
     position: relative;
@@ -41,7 +41,6 @@
     font-size: 3rem;
 }
 
-.blog-article:nth-child(odd) > .blog-row {
+.blog-article:nth-child(odd)>.blog-row {
     flex-direction: row-reverse;
 }
-
