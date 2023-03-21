@@ -62,7 +62,7 @@ function displayBlogs(blogPosts, baseURL) {
         let updatedText = articleCard.querySelector(`[data-blog="updated"]`);
 
         let today = new Date();
-        let updated = new Date(blogPost.updated ? blogPost.updated : blogpost.created);
+        let updated = new Date(blogPost.updated ? blogPost.updated : blogPost.created);
 
         let daysAgo = Math.ceil((Math.abs(today.getTime() - updated.getTime())) / (1000 * 60 * 60 * 24));
 
