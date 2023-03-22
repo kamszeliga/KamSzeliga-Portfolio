@@ -127,7 +127,7 @@ h1,
 }
 
 .linkstyle:hover {
-    color: var(--kls-primary-color);
+    color: var(--kls-darker-color);
     filter: saturate(2);
     text-decoration: underline;
 }
